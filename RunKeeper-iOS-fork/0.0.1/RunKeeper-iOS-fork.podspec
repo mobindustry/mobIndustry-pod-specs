@@ -1,11 +1,14 @@
 Pod::Spec.new do |s|
-  s.name         = "RunKeeper-iOS"
+  s.name         = "RunKeeper-iOS-fork"
   s.version      = "0.0.1"
   s.summary      = "An iOS RunKeeper API module."
   s.description  = <<-DESC
                     RunKeeper-iOS provides an Objective C wrapper class for accessing the [RunKeeper Health Graph API](http://developer.runkeeper.com/healthgraph) from iOS 4.0 or newer.
 
                     RunKeeper-iOS was developed for use in our iPhone fitness app "Running Intensity".  It is meant to be general, but is built primarily for a Running app.  The API is NOT fully supported, but more will be added based on our own needs or the requests of others.
+
+
+                    DIFFERENCES: The AFNetworking 1.3.0 insted of 1.2.0
                    DESC
   s.homepage     = "https://github.com/brierwood/RunKeeper-iOS"
 
